@@ -32,6 +32,6 @@ Route::post('/contacts','ContactsController@index');
 
 
 Route::get('/test', function (){
-    echo response()->json([],403);
+    echo response
 });
 
