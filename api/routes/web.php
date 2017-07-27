@@ -24,14 +24,5 @@ Route::post('/test', function (){
 });
 
 Route::post('/contacts','ContactsController@index');
-//Route::post('contacts','ContactsController');
-//Route::post('contacts','ContactsController');
-//Route::post('contacts','ContactsController');
-//Route::post('contacts','ContactsController');
-
-
-
-Route::get('/test', function (){
-    echo response
-});
+Route::post('/contact/{id}','ContactsController@show');
 

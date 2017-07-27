@@ -70,7 +70,7 @@ class MetaCommand extends Command
      *
      * @return void
      */
-    public function handle()
+    public function fire()
     {
         $this->registerClassAutoloadExceptions();
 

@@ -2,7 +2,7 @@ $(function () {
     //Render templates
     // renderTemplates()
     // addHoverClass()
-   //TODO: automaticLogout()
+    //TODO: automaticLogout()
 });
 
 function addHoverClass() {
@@ -13,7 +13,7 @@ function saveToken(token) {
     localStorage.setItem('AuthToken', token);
 }
 
-function getToken(){
+function getToken() {
     return localStorage.getItem('AuthToken');
 }
 
@@ -21,9 +21,8 @@ function removeToken() {
     localStorage.removeItem('AuthToken');
 }
 
-
 function automaticLogout() {
-    if(!getToken() && window.location.pathname != '/user-login.html') {
+    if (!getToken() && window.location.pathname != '/user-login.html') {
         $(document).idleTimeout({
             redirectUrl: 'user-login.html', // redirect to this url. Set this value to YOUR site's logout page.
             idleTimeLimit: 10, // 15 seconds
@@ -35,13 +34,6 @@ function automaticLogout() {
     }
 }
 
-
-
-
-
-
-
-
 //TODO: Load external handlebars template file
 function renderTemplates() {
     var templatesFolder = 'html/templates/'
@@ -50,55 +42,64 @@ function renderTemplates() {
             url: templatesFolder + 'footer.htm',
             selector: '#footer'
         },
-        header:{
+        header: {
             url: templatesFolder + 'header.htm',
             selector: '#headerContainer'
         },
-        breadcrumbs:{
+        breadcrumbs: {
             url: templatesFolder + 'breadcrumbs.htm',
             selector: '#breadcrumbs'
         }
-
-
     }
-
     $.each(toLoad, loadPartials)
 }
 
-
 //Load static html blocks - Use with handlebars
 function loadPartials() {
-   return $(this.selector).load(this.url)
+    return $(this.selector).load(this.url)
 }
 
-
 function callAjax(url, data) {
-    base_url='http://api/';
+    base_url = 'http://api/';
     return $.ajax({
         async: true,
         crossDomain: true,
         method: 'POST',
         headers: {
             AuthToken: getToken(),
-            'Content-Type' : 'application/x-www-form-urlencoded; charset=UTF-8'
+            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
         },
         cache: true,
         url: base_url + url,
         dataType: 'json',
         data: data,
-        error: function(XMLHttpRequest, textStatus, errorThrown) {
+        error: function (XMLHttpRequest, textStatus, errorThrown) {
             console.log('Error: ', errorThrown, 'Status', textStatus);
             console.log('An error has occured. Reload your browser')
         },
-        success: function(response){
-            console.log(response)
+        success: function (response) {
+            console.log('Success', response);
         }
-
     });
 }
 
 function readForm(selector) {
     return $(selector).serializeArray();
 }
+/*
+
+function sweetAlert(msg){
+    var sweetAlert = {
+        primary    : function () {
+            return swal('Note', msg, 'primary')
+        },
+        info      : "Error...",
+        danger    : "Success!",
+        success    : "Success!",
+        warning    : "Success!"
+    }
+    return sweetAlert;
+}
+*/
 
 

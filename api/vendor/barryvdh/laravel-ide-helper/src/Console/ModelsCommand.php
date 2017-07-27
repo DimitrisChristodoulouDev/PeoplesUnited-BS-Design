@@ -75,7 +75,7 @@ class ModelsCommand extends Command
      *
      * @return void
      */
-    public function handle()
+    public function fire()
     {
         $filename = $this->option('filename');
         $this->write = $this->option('write');

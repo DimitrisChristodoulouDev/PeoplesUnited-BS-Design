@@ -4,8 +4,11 @@ var Login = function () {
             errorElement: "span",
             errorClass: "help-block",
             focusInvalid: !1,
-            rules: {username: {required: !0}, password: {required: !0}, remember: {required: !1}},
-            messages: {username: {required: "Username is required."}, password: {required: "Password is required."}},
+            rules: {email: {required: !0, email: !0}, password: {required: !0}, remember: {required: !1}},
+            messages: {
+                email: {required: "Email is required.", email: 'Invalid email.'},
+                password: {required: "Password is required."}
+            },
             invalidHandler: function (e, r) {
                 $(".alert-danger", $(".login-form")).show()
             },
@@ -41,7 +44,7 @@ var Login = function () {
             errorPlacement: function (e, r) {
                 e.insertAfter(r.closest(".input-icon"))
             },
-            submitHandler: loginHandler 
+            submitHandler: loginHandler
         }), $(".forget-form input").keypress(function (e) {
             if (13 == e.which) return $(".forget-form").validate().form() && $(".forget-form").submit(), !1
         }), jQuery("#forget-password").click(function () {
@@ -121,17 +124,12 @@ function loginHandler() {
     callAjax('authenticate/login', obj)
         .done(function (response) {
             console.log(response)
-            // $('#loginProgress').hide();
-            if(response.status == '1') {//correct credentials
-                // saveToken(response.AuthToken);
-
-
-                /*if (response.userType == 'ADMIN') {
-                } else {
-                    window.location.href = 'mainAgent.html';
-                }*/
+            if (response.status == '1') {//correct credentials
+                saveToken(response.AuthToken);
+                console.log(localStorage)
+                    window.location.href = 'index.html';
             } else {
-           alert('errpr')
+                swal('Error', 'Invalid Credentials', 'error');
             }
         });
 }

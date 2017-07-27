@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AgentsSeeder' => $baseDir . '/database/seeds/AgentsSeeder.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Contact' => $baseDir . '/app/Contact.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
@@ -66,6 +67,7 @@ return array(
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonInterval' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
+    'ContactsCategoriesSeeder' => $baseDir . '/database/seeds/ContactsCategoriesSeeder.php',
     'ContactsSeeder' => $baseDir . '/database/seeds/ContactsSeeder.php',
     'CreateAgentsTable' => $baseDir . '/database/migrations/2017_07_20_101809_create_agents_table.php',
     'CreateBoardOfDirectionPositionsTable' => $baseDir . '/database/migrations/2017_07_20_101931_create_board_of_direction_positions_table.php',
@@ -2206,7 +2208,6 @@ return array(
     'Psy\\CodeCleaner\\CodeCleanerPass' => $vendorDir . '/psy/psysh/src/Psy/CodeCleaner/CodeCleanerPass.php',
     'Psy\\CodeCleaner\\ExitPass' => $vendorDir . '/psy/psysh/src/Psy/CodeCleaner/ExitPass.php',
     'Psy\\CodeCleaner\\FinalClassPass' => $vendorDir . '/psy/psysh/src/Psy/CodeCleaner/FinalClassPass.php',
-    'Psy\\CodeCleaner\\FunctionContextPass' => $vendorDir . '/psy/psysh/src/Psy/CodeCleaner/FunctionContextPass.php',
     'Psy\\CodeCleaner\\FunctionReturnInWriteContextPass' => $vendorDir . '/psy/psysh/src/Psy/CodeCleaner/FunctionReturnInWriteContextPass.php',
     'Psy\\CodeCleaner\\ImplicitReturnPass' => $vendorDir . '/psy/psysh/src/Psy/CodeCleaner/ImplicitReturnPass.php',
     'Psy\\CodeCleaner\\InstanceOfPass' => $vendorDir . '/psy/psysh/src/Psy/CodeCleaner/InstanceOfPass.php',

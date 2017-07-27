@@ -4,86 +4,51 @@ namespace App\Http\Controllers;
 
 use App\Contact;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
+
 
 class ContactsController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index(Request $request)
-    {
-        $limit = 5||$request->limit;
-        $contacts = Contact::limit(5)->get(
-            ['name', 'surname', 'email', 'mobile','imageUrl', 'id']
-        );
-        return response()->json(['agents'=>$contacts], 200);
+   public function index(Request $request)
+   {
+        $rtn = Contact::get($request->fields);
+        foreach ($rtn as $c) {
+            $c->label = $c->contactCategory->categoryLabel;
+            $table = $c->contactCategory->tableNameReference;
+            $c->customInfo = DB::table('agents')->where('contactID','=', $c->id)->first();
+        }
+        return response()->json($rtn, 200);
+   }
+
+   public function show($id){
+
+       $contact = Contact::find($id);
+       $contact->customInfo = DB::table('agents')->where('contactID','=', $contact->id)->get();
+       return response()->json($contact, 200);
+   }
+
+
+    public function edit($id){
+
+        $contact = Contact::find($id);
+        $contact->contactCategory;
+        return response()->json($contact, 200);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
+    public function remove($id){
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
+        $contact = Contact::find($id);
+        $contact->delete();
 
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Contact  $contact
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Request $request)
-    {
-        //
+    public function removePermanently($id){
+        $contact = Contact::find($id);
+        $contact->history()->forceDelete();
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Contact  $contact
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Request $request)
-    {
-        //
-    }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Contact  $contact
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, Contact $contact)
-    {
-        //
-    }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Contact  $contact
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy(Contact $contact)
-    {
-        //
-    }
+
+
 }

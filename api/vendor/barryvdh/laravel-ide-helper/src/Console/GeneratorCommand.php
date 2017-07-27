@@ -74,7 +74,7 @@ class GeneratorCommand extends Command
      *
      * @return void
      */
-    public function handle()
+    public function fire()
     {
         if (file_exists(base_path() . '/vendor/compiled.php') ||
             file_exists(base_path() . '/bootstrap/cache/compiled.php') ||

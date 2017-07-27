@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1
+class ComposerStaticInitc139a8ed9d22a53037f95f22b893ab67
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -83,7 +83,6 @@ class ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1
         array (
             'Dotenv\\' => 7,
             'Doctrine\\Instantiator\\' => 22,
-            'Doctrine\\Common\\Inflector\\' => 26,
             'DeepCopy\\' => 9,
         ),
         'C' => 
@@ -224,10 +223,6 @@ class ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1
         array (
             0 => __DIR__ . '/..' . '/doctrine/instantiator/src/Doctrine/Instantiator',
         ),
-        'Doctrine\\Common\\Inflector\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
-        ),
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
@@ -280,6 +275,13 @@ class ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1
                 0 => __DIR__ . '/..' . '/jakub-onderka/php-console-color/src',
             ),
         ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Inflector\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
+            ),
+        ),
         'B' => 
         array (
             'Barryvdh' => 
@@ -290,6 +292,7 @@ class ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1
     );
 
     public static $classMap = array (
+        'AgentsSeeder' => __DIR__ . '/../..' . '/database/seeds/AgentsSeeder.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Contact' => __DIR__ . '/../..' . '/app/Contact.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
@@ -350,6 +353,7 @@ class ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
+        'ContactsCategoriesSeeder' => __DIR__ . '/../..' . '/database/seeds/ContactsCategoriesSeeder.php',
         'ContactsSeeder' => __DIR__ . '/../..' . '/database/seeds/ContactsSeeder.php',
         'CreateAgentsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_20_101809_create_agents_table.php',
         'CreateBoardOfDirectionPositionsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_20_101931_create_board_of_direction_positions_table.php',
@@ -2490,7 +2494,6 @@ class ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1
         'Psy\\CodeCleaner\\CodeCleanerPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/CodeCleanerPass.php',
         'Psy\\CodeCleaner\\ExitPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/ExitPass.php',
         'Psy\\CodeCleaner\\FinalClassPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/FinalClassPass.php',
-        'Psy\\CodeCleaner\\FunctionContextPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/FunctionContextPass.php',
         'Psy\\CodeCleaner\\FunctionReturnInWriteContextPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/FunctionReturnInWriteContextPass.php',
         'Psy\\CodeCleaner\\ImplicitReturnPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/ImplicitReturnPass.php',
         'Psy\\CodeCleaner\\InstanceOfPass' => __DIR__ . '/..' . '/psy/psysh/src/Psy/CodeCleaner/InstanceOfPass.php',
@@ -3359,10 +3362,10 @@ class ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit6e5302450afc3657b6c880d2c7a035f1::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc139a8ed9d22a53037f95f22b893ab67::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc139a8ed9d22a53037f95f22b893ab67::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitc139a8ed9d22a53037f95f22b893ab67::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitc139a8ed9d22a53037f95f22b893ab67::$classMap;
 
         }, null, ClassLoader::class);
     }
