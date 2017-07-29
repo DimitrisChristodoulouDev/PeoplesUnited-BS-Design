@@ -13,11 +13,11 @@ class AgentsSeeder extends Seeder
     {
         $faker = Faker\Factory::create();
 
-        $limit = 10;
+        $limit = 50;
 
         for ($i = 0; $i < $limit; $i++) {
             Agent::create([
-                'contactID'=>random_int(1, 3),
+                'contactID'=>$i,
                 'passportFileUrl' => $faker->firstName,
                 'passportNumber'=> $faker->date('Y-m-d'),
                 'socialMediaLinks'=> $faker->email,

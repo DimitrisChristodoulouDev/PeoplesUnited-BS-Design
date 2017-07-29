@@ -54,10 +54,18 @@ function renderTemplates() {
     $.each(toLoad, loadPartials)
 }
 
-//Load static html blocks - Use with handlebars
-function loadPartials() {
-    return $(this.selector).load(this.url)
+function handlebarsRenderTemplate(selector, container, context) {
+    var theTemplateScript = $(selector).html();
+
+    // Compile the template
+    var theTemplate = Handlebars.compile(theTemplateScript);
+
+    // Pass our data to the template
+
+    var theCompiledHtml = theTemplate(context);
+    $(container).append(theCompiledHtml)
 }
+
 
 function callAjax(url, data) {
     base_url = 'http://api/';
@@ -86,6 +94,24 @@ function callAjax(url, data) {
 function readForm(selector) {
     return $(selector).serializeArray();
 }
+
+
+function getUrlParameter(sParam) {
+    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        sURLVariables = sPageURL.split('&'),
+        sParameterName,
+        i;
+
+    for (i = 0; i < sURLVariables.length; i++) {
+        sParameterName = sURLVariables[i].split('=');
+
+        if (sParameterName[0] === sParam) {
+            return sParameterName[1] === undefined ? true : sParameterName[1];
+        }
+    }
+}
+
+
 /*
 
 function sweetAlert(msg){
