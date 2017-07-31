@@ -30,7 +30,7 @@ function getAllContacts() {
                 if (!found) contactCategories.push(a)
             })
             data.contactCategories = contactCategories
-            handlebarsRenderTemplate('#contactsFilterTemplate', '#contactsFilter', data)
+            handlebarsRenderTemplate('#contactsFilterTemplate', '#contactsFilter', res)
             $('#contactsFilter').selectpicker('refresh')
             data = {contacts:res};
             handlebarsRenderTemplate('#contactsGridTemplate', '#contactsGrid', data)

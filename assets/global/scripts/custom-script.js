@@ -57,7 +57,9 @@ function renderTemplates() {
 
 function handlebarsRenderTemplate(selector, container, context) {
     // Compile the template
-    var theTemplate = Handlebars.compile($(selector).html());
+    // console.log(selector)
+    var template = $(selector).html();
+    var theTemplate = Handlebars.compile(template);
     // Pass our data to the template
     var theCompiledHtml = theTemplate(context);
     $(container).append(theCompiledHtml)

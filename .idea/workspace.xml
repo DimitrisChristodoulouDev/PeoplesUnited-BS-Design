@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="644a5f4c-9d1d-4d96-b2a7-c5e0a2450883" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/global/plugins/swag.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/.idea/dataSources/07d83e34-4b2c-4370-ad9b-682ddf38f413.xml" afterPath="$PROJECT_DIR$/api/.idea/dataSources/07d83e34-4b2c-4370-ad9b-682ddf38f413.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/.idea/workspace.xml" afterPath="$PROJECT_DIR$/api/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Agent.php" afterPath="$PROJECT_DIR$/api/app/Agent.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/ContactsCategories.php" afterPath="$PROJECT_DIR$/api/app/ContactsCategories.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Http/Controllers/ContactsController.php" afterPath="$PROJECT_DIR$/api/app/Http/Controllers/ContactsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_093448_create_contacts_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_093448_create_contacts_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_101809_create_agents_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_101809_create_agents_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/seeds/ContactsSeeder.php" afterPath="$PROJECT_DIR$/api/database/seeds/ContactsSeeder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_static.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/contactProfile.html" afterPath="$PROJECT_DIR$/app/contactProfile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/plugins/handlebars-v4.0.10.js" afterPath="$PROJECT_DIR$/assets/global/plugins/handlebars-v4.0.10.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/contacts.html" afterPath="$PROJECT_DIR$/app/contacts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/scripts/custom-script.js" afterPath="$PROJECT_DIR$/assets/global/scripts/custom-script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pages/scripts/contactProfile.js" afterPath="$PROJECT_DIR$/assets/pages/scripts/contactProfile.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pages/scripts/contacts.js" afterPath="$PROJECT_DIR$/assets/pages/scripts/contacts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pages/scripts/profile.min.js" afterPath="$PROJECT_DIR$/assets/pages/scripts/profile.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,27 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/contacts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="1656" column="45" lean-forward="false" selection-start-line="1656" selection-start-column="38" selection-end-line="1656" selection-end-column="45" />
-              <folding>
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#li#3;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contactProfile.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contactProfile.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/contactProfile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="2892" column="47" lean-forward="false" selection-start-line="2892" selection-start-column="47" selection-end-line="2892" selection-end-column="47" />
+            <state relative-caret-position="556">
+              <caret line="1726" column="21" lean-forward="false" selection-start-line="1726" selection-start-column="21" selection-end-line="1726" selection-end-column="21" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#4881#4887#0" expanded="true" />
@@ -69,45 +41,29 @@
                 <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="e#92227#98223#0" expanded="false" />
-                <element signature="n#div#1;n#script#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#select#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#180181#180187#0" expanded="true" />
-                <element signature="e#180278#180284#0" expanded="true" />
-                <element signature="e#180285#180291#0" expanded="true" />
-                <element signature="e#180702#182143#0" expanded="false" />
+                <element signature="n#div#0;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#select#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#144294#144300#0" expanded="true" />
+                <element signature="e#144391#144397#0" expanded="true" />
+                <element signature="e#144398#144404#0" expanded="true" />
+                <element signature="e#144822#146263#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contactProfile.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contactProfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contactProfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contacts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contacts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom-script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/global/scripts/custom-script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="57" column="56" lean-forward="true" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
+            <state relative-caret-position="336">
+              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -125,15 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jquery-u</find>
-      <find>reven</find>
-      <find>comments</find>
-      <find>Actions</find>
-      <find>Inquir</find>
-      <find>show all</find>
-      <find>quick-nav</find>
-      <find>script</find>
-      <find>handl</find>
       <find>grid</find>
       <find>modal</find>
       <find>each</find>
@@ -155,6 +102,15 @@
       <find>format</find>
       <find>counter</find>
       <find>handleb</find>
+      <find>contacts</find>
+      <find>hand</find>
+      <find>contact.</find>
+      <find>{{</find>
+      <find>script</find>
+      <find>im</find>
+      <find>profileDetailsTemplate</find>
+      <find>option</find>
+      <find>country</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -176,13 +132,13 @@
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/assets/pages/contacts.js" />
         <option value="$PROJECT_DIR$/object.json" />
-        <option value="$PROJECT_DIR$/app/contacts.html" />
-        <option value="$PROJECT_DIR$/assets/pages/scripts/contacts.js" />
         <option value="$PROJECT_DIR$/assets/pages/scripts/profile.min.js" />
-        <option value="$PROJECT_DIR$/app/contactProfile.html" />
         <option value="$PROJECT_DIR$/assets/global/plugins/handlebars-v4.0.10.js" />
+        <option value="$PROJECT_DIR$/app/contacts.html" />
         <option value="$PROJECT_DIR$/assets/global/scripts/custom-script.js" />
+        <option value="$PROJECT_DIR$/assets/pages/scripts/contacts.js" />
         <option value="$PROJECT_DIR$/assets/pages/scripts/contactProfile.js" />
+        <option value="$PROJECT_DIR$/app/contactProfile.html" />
       </list>
     </option>
   </component>
@@ -226,7 +182,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -238,24 +193,7 @@
             <path>
               <item name="PeoplesUnited-BS-Design" type="b2602c69:ProjectViewProjectNode" />
               <item name="PeoplesUnited-BS-Design" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeoplesUnited-BS-Design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeoplesUnited-BS-Design" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeoplesUnited-BS-Design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeoplesUnited-BS-Design" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="apps" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeoplesUnited-BS-Design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeoplesUnited-BS-Design" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PeoplesUnited-BS-Design" type="b2602c69:ProjectViewProjectNode" />
@@ -274,6 +212,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -326,11 +265,12 @@
       <workItem from="1501231981233" duration="5941000" />
       <workItem from="1501307983240" duration="14942000" />
       <workItem from="1501493034305" duration="6174000" />
+      <workItem from="1501521634905" duration="4967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41235000" />
+    <option name="totallyTimeSpent" value="46202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -559,13 +499,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/app/Contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -602,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc" />
     <entry file="file://$PROJECT_DIR$/assets/global/scripts/app.min.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -631,13 +557,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="1860" column="57" lean-forward="false" selection-start-line="1860" selection-start-column="57" selection-end-line="1860" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/ContactsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -657,7 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
           <caret line="42" column="3" lean-forward="false" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="5" column="565" lean-forward="false" selection-start-line="5" selection-start-column="565" selection-end-line="5" selection-end-column="565" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,16 +590,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="407" column="22" lean-forward="false" selection-start-line="168" selection-start-column="16" selection-end-line="407" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/profile.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/handlebars-v4.0.10.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="4839" column="1" lean-forward="false" selection-start-line="4839" selection-start-column="1" selection-end-line="4839" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="1860" column="57" lean-forward="false" selection-start-line="1860" selection-start-column="57" selection-end-line="1860" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="130" column="0" lean-forward="false" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding>
-            <element signature="n#select#0;n#div#4;n#form#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1501159258777" expanded="true" signature="2812:2818" ph=" " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="1656" column="45" lean-forward="false" selection-start-line="1656" selection-start-column="38" selection-end-line="1656" selection-end-column="45" />
+        <state relative-caret-position="262">
+          <caret line="1532" column="34" lean-forward="false" selection-start-line="1532" selection-start-column="32" selection-end-line="1532" selection-end-column="34" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#li#1;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -693,18 +648,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/profile.min.js">
+    <entry file="file://$PROJECT_DIR$/assets/global/scripts/custom-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contacts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+          <caret line="32" column="86" lean-forward="false" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contactProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/contactProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="2892" column="47" lean-forward="false" selection-start-line="2892" selection-start-column="47" selection-end-line="2892" selection-end-column="47" />
+        <state relative-caret-position="556">
+          <caret line="1726" column="21" lean-forward="false" selection-start-line="1726" selection-start-column="21" selection-end-line="1726" selection-end-column="21" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#4881#4887#0" expanded="true" />
@@ -720,48 +691,20 @@
             <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#92227#98223#0" expanded="false" />
-            <element signature="n#div#1;n#script#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#select#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#180181#180187#0" expanded="true" />
-            <element signature="e#180278#180284#0" expanded="true" />
-            <element signature="e#180285#180291#0" expanded="true" />
-            <element signature="e#180702#182143#0" expanded="false" />
+            <element signature="n#div#0;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#script#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#144294#144300#0" expanded="true" />
+            <element signature="e#144391#144397#0" expanded="true" />
+            <element signature="e#144398#144404#0" expanded="true" />
+            <element signature="e#144822#146263#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/plugins/handlebars-v4.0.10.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="4839" column="1" lean-forward="false" selection-start-line="4839" selection-start-column="1" selection-end-line="4839" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/scripts/custom-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="57" column="56" lean-forward="true" selection-start-line="57" selection-start-column="56" selection-end-line="57" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contacts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="35" lean-forward="false" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contactProfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
