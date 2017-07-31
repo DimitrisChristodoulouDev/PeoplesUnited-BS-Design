@@ -20,7 +20,7 @@ function getAllContacts() {
             var contactCategories = [];
             $.each(res, function (i, item) {
                 var a = {
-                    label: item.contact_category.categoryLabel,
+                    label: null || item.contact_category.categoryLabel,
                     value: item.contact_category.tableNameReference,
                     category_id: item.contact_category.id
                 };//obj to push

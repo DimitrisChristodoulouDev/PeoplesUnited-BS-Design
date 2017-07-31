@@ -7,8 +7,10 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'AgentsSeeder' => $baseDir . '/database/seeds/AgentsSeeder.php',
+    'App\\Agent' => $baseDir . '/app/Agent.php',
     'App\\Console\\Kernel' => $baseDir . '/app/Console/Kernel.php',
     'App\\Contact' => $baseDir . '/app/Contact.php',
+    'App\\ContactsCategories' => $baseDir . '/app/ContactsCategories.php',
     'App\\Exceptions\\Handler' => $baseDir . '/app/Exceptions/Handler.php',
     'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => $baseDir . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
     'App\\Http\\Controllers\\Auth\\LoginController' => $baseDir . '/app/Http/Controllers/Auth/LoginController.php',
@@ -67,6 +69,7 @@ return array(
     'Carbon\\Carbon' => $vendorDir . '/nesbot/carbon/src/Carbon/Carbon.php',
     'Carbon\\CarbonInterval' => $vendorDir . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
     'Carbon\\Exceptions\\InvalidDateException' => $vendorDir . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
+    'ClubsSeeder' => $baseDir . '/database/seeds/ClubsSeeder.php',
     'ContactsCategoriesSeeder' => $baseDir . '/database/seeds/ContactsCategoriesSeeder.php',
     'ContactsSeeder' => $baseDir . '/database/seeds/ContactsSeeder.php',
     'CreateAgentsTable' => $baseDir . '/database/migrations/2017_07_20_101809_create_agents_table.php',
@@ -75,6 +78,7 @@ return array(
     'CreateClubSponsorsTable' => $baseDir . '/database/migrations/2017_07_20_102501_create_club_sponsors_table.php',
     'CreateClubStuffPositionsTable' => $baseDir . '/database/migrations/2017_07_20_102348_create_club_stuff_positions_table.php',
     'CreateClubStuffTable' => $baseDir . '/database/migrations/2017_07_20_102432_create_club_stuff_table.php',
+    'CreateClubsTable' => $baseDir . '/database/migrations/2017_07_29_133946_create_clubs_table.php',
     'CreateContactsCategoriesTable' => $baseDir . '/database/migrations/2017_07_20_100628_create_contactsCategories_table.php',
     'CreateContactsTable' => $baseDir . '/database/migrations/2017_07_20_093448_create_contacts_table.php',
     'CreateFormationsTable' => $baseDir . '/database/migrations/2017_07_21_092009_create_formations_table.php',

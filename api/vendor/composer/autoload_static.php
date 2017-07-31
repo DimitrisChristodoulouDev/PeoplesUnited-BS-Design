@@ -293,8 +293,10 @@ class ComposerStaticInitc139a8ed9d22a53037f95f22b893ab67
 
     public static $classMap = array (
         'AgentsSeeder' => __DIR__ . '/../..' . '/database/seeds/AgentsSeeder.php',
+        'App\\Agent' => __DIR__ . '/../..' . '/app/Agent.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Contact' => __DIR__ . '/../..' . '/app/Contact.php',
+        'App\\ContactsCategories' => __DIR__ . '/../..' . '/app/ContactsCategories.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
         'App\\Http\\Controllers\\Auth\\LoginController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/LoginController.php',
@@ -353,6 +355,7 @@ class ComposerStaticInitc139a8ed9d22a53037f95f22b893ab67
         'Carbon\\Carbon' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Carbon.php',
         'Carbon\\CarbonInterval' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/CarbonInterval.php',
         'Carbon\\Exceptions\\InvalidDateException' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Exceptions/InvalidDateException.php',
+        'ClubsSeeder' => __DIR__ . '/../..' . '/database/seeds/ClubsSeeder.php',
         'ContactsCategoriesSeeder' => __DIR__ . '/../..' . '/database/seeds/ContactsCategoriesSeeder.php',
         'ContactsSeeder' => __DIR__ . '/../..' . '/database/seeds/ContactsSeeder.php',
         'CreateAgentsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_20_101809_create_agents_table.php',
@@ -361,6 +364,7 @@ class ComposerStaticInitc139a8ed9d22a53037f95f22b893ab67
         'CreateClubSponsorsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_20_102501_create_club_sponsors_table.php',
         'CreateClubStuffPositionsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_20_102348_create_club_stuff_positions_table.php',
         'CreateClubStuffTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_20_102432_create_club_stuff_table.php',
+        'CreateClubsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_29_133946_create_clubs_table.php',
         'CreateContactsCategoriesTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_20_100628_create_contactsCategories_table.php',
         'CreateContactsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_20_093448_create_contacts_table.php',
         'CreateFormationsTable' => __DIR__ . '/../..' . '/database/migrations/2017_07_21_092009_create_formations_table.php',

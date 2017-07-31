@@ -15,12 +15,13 @@ class CreateAgentsTable extends Migration
     {
         Schema::create('agents', function (Blueprint $table) {
             $table->increments('id');
+//            $table->integer('contactID', false)->unsigned();
             $table->timestamps();
             $table->string('passportFileUrl', 250)->nullable();
             $table->string('resumeFileUrl', 250)->nullable();
             $table->string('passportNumber', 50)->nullable();
             $table->string('socialMediaLinks', 250);
-            $table->integer('contactID',false);
+            $table->integer('contactID', false);
         });
     }
 

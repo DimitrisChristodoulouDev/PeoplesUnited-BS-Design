@@ -11,5 +11,11 @@ $(function () {
 
 function getContact() {
     var contactID = getUrlParameter('id')
-    console.log(contactID)
+    callAjax('/contact/'+contactID,{}).done(function (response) {
+        var data ={
+            contact: response
+        }
+        console.log(data)
+        handlebarsRenderTemplate('#profileDetailsTemplate', '#profileDetails', data);
+    })
 }

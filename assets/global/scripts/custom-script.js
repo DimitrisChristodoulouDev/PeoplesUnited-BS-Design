@@ -1,4 +1,5 @@
 $(function () {
+
     //Render templates
     // renderTemplates()
     // addHoverClass()
@@ -55,13 +56,9 @@ function renderTemplates() {
 }
 
 function handlebarsRenderTemplate(selector, container, context) {
-    var theTemplateScript = $(selector).html();
-
     // Compile the template
-    var theTemplate = Handlebars.compile(theTemplateScript);
-
+    var theTemplate = Handlebars.compile($(selector).html());
     // Pass our data to the template
-
     var theCompiledHtml = theTemplate(context);
     $(container).append(theCompiledHtml)
 }
