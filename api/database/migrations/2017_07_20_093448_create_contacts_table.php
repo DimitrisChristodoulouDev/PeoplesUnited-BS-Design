@@ -32,24 +32,11 @@ class CreateContactsTable extends Migration
             $table->string('resumeFileUrl',250)->nullable();
             $table->string('socialMediaLinks', 250);
             $table->string('telephone', 50);
-            $table->boolean('importantPeople')->default(false);
+            $table->enum('importantPeople',['on', 'off'])->default('off');
             $table->integer('categoryID', false);
             $table->string('personalWebsite', 250)->nullable();
             $table->string('workWebsite', 250)->nullable();
             $table->string('otherWebsites', 250)->nullable();
-/*'tableID'=> 1,
-                'tableName'=>'agents'
- * */
-            $table->integer('tableID',false);
-            $table->string('tableName', 50);
-
-
-
-
-
-
-
-
         });
     }
 

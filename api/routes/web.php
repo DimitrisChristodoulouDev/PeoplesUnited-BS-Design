@@ -25,4 +25,5 @@ Route::post('/test', function (){
 
 Route::post('/contacts','ContactsController@index');
 Route::post('/contact/{id}','ContactsController@show');
+Route::post('/contact/{id}/edit/personal','ContactsController@editPersonal');
 
