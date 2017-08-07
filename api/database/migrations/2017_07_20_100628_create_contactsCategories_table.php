@@ -13,11 +13,12 @@ class CreateContactsCategoriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('contactsCategories', function (Blueprint $table) {
+        Schema::create('contacts_categories', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('categoryLabel',50); //Shown to the user
-            $table->string('tableNameReference', 250); /* Table Names [
+            $table->string('tableNameReference', 250);
+            /* Table Names [
                 'agents',
                 'boardofDirector',
                 'players',
@@ -38,6 +39,6 @@ class CreateContactsCategoriesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('contactsCategories');
+        Schema::dropIfExists('contacts_categories');
     }
 }

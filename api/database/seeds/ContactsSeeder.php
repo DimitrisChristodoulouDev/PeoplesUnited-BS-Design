@@ -35,7 +35,7 @@ class ContactsSeeder extends Seeder
                 'socialMediaLinks'=> $faker->url,
                 'telephone'=> $faker->phoneNumber,
                 'importantPeople'=>array_random(['on','off']),
-                'categoryID'=> 2,
+                'categoryID'=> random_int(1, 3),
                 'personalWebsite'=> $faker->url,
                 'workWebsite'=> $faker->url,
                 'otherWebsites'=> $faker->url,

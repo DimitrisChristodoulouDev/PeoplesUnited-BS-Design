@@ -13,7 +13,7 @@ class CreateTechnicalStuffPositionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('technicalStuffPositions', function (Blueprint $table) {
+        Schema::create('technical_stuff_positions', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('label',50);
@@ -42,6 +42,6 @@ class CreateTechnicalStuffPositionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('technicalStuffPositions');
+        Schema::dropIfExists('technical_stuff_positions');
     }
 }

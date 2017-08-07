@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Agent;
 use App\Clubs;
 use App\Contact;
+use App\ContactsCategories;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -13,30 +14,32 @@ class ContactsController extends Controller
 {
     public function index(Request $request)
     {
-        $rtn = Contact::where('categoryID', '=', 2)->get();//$request->fields);
+        $rtn = Contact::all();
         foreach ($rtn as $c) {
             $c->contactCategory;
-//          $c->customInfo = DB::table('agents')->where('contactID','=', $c->id)->first();//agent.contactID = contacts.id
             $c->customInfo = DB::table('agents')->where('contactID', '=', $c->id)->first();//agent.contactID = contacts.id
         }
-        return response()->json($rtn, 200);
+        $categories = ContactsCategories::all();
+        return response()->json(['contacts'=>$rtn, 'categories'=>$categories], 200);
     }
 
     public function show($id)
     {
 
-        $contact = Contact::find($id);
+
+
+        $contact = Contact::findOrFail($id);
         $contact->customInfo = DB::table('agents')->where('contactID', '=', $contact->id)->get();
 
         if ($contact->contactCategory->tableNameReference == 'agents') {
             $agent = Agent::where('contactID', '=', $contact->id)->first();
             $contact->team = $agent->agentClubs;
-
+            $contact->next = Agent::where('contactID','>', $agent->contactID)->first(['contactID']);
+//            $contact->previous = Agent::where('contactID','<', $agent->contactID)->first(['contactID']);
         }
 
         return response()->json($contact, 200);
     }
-
 
     public function editPersonal(Request $request, $id)
     {
@@ -102,12 +105,14 @@ class ContactsController extends Controller
     }
 
 
-    public function remove($id)
+    public function deleteSoft($id)
     {
 
-        $contact = Contact::find($id);
-        $contact->delete();
-
+        $contact = Contact::findOrFail($id);
+        if($contact->delete())
+            return response()->json(['status'=>1],200);
+        else
+            return response()->json('',300);
     }
 
     public function removePermanently($id)
@@ -115,6 +120,8 @@ class ContactsController extends Controller
         $contact = Contact::find($id);
         $contact->history()->forceDelete();
     }
-
+    /*
+     * @idea
+     * */
 
 }

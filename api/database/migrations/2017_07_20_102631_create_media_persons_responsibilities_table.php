@@ -13,7 +13,7 @@ class CreateMediaPersonsResponsibilitiesTable extends Migration
      */
     public function up()
     {
-        Schema::create('mediaPersonsResponsibilities', function (Blueprint $table) {
+        Schema::create('media_persons_responsibilities', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('label',50);
@@ -28,6 +28,6 @@ class CreateMediaPersonsResponsibilitiesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('mediaPersonsResponsibilities');
+        Schema::dropIfExists('media_persons_responsibilities');
     }
 }

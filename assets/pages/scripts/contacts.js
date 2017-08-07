@@ -4,6 +4,11 @@ $(document).ready(function () {
     /*$(document.body).on('click','.edit-contact', editContact)
     $(document.body).on('click','.star-contact', starContact)
     $(document.body).on('click','.delete-contact', deleteContact)*/
+
+    $('.contactsFilter').on('changed.bs.select', filterContacts)
+
+
+
 })
 
 function getAllContacts() {
@@ -14,29 +19,77 @@ function getAllContacts() {
 
     callAjax('contacts', obj)
         .done(function (response) {
-            var res = response;
+            console.log(response)
+            var contacts = response.contacts;
+            var categories = response.categories;
             var data = {}
-//            define categoriesList
-            var contactCategories = [];
-            $.each(res, function (i, item) {
-                var a = {
-                    label: null || item.contact_category.categoryLabel,
-                    value: item.contact_category.tableNameReference,
-                    category_id: item.contact_category.id
-                };//obj to push
-                var found = contactCategories.some(function (el) {
-                    return el.category_id === item.contact_category.id;
-                });
-                if (!found) contactCategories.push(a)
-            })
-            data.contactCategories = contactCategories
-            handlebarsRenderTemplate('#contactsFilterTemplate', '#contactsFilter', res)
-            $('#contactsFilter').selectpicker('refresh')
-            data = {contacts:res};
+
+
+            data.categories = categories;
+            handlebarsRenderTemplate('#contactsFilterTemplate', '.contactsFilter', data)
+            data.contacts=contacts;
             handlebarsRenderTemplate('#contactsGridTemplate', '#contactsGrid', data)
+        }, function () {
+            $('.contactsFilter').selectpicker('refresh')
+            mixitup('#contactsGrid', {
+            animation: {
+                effects: 'fade rotateZ(-180deg)',
+                duration: 500
+            },
+            classNames: {
+                block: 'contactsFilter',
+                elementFilter: 'myfilter'
+            },
+            selectors: {
+                target: '.mix',
+                control:'[data-mixitup-control]'
+            }
         });
 
+    });
+}
+function filterContacts(){
+    var a = $(this).val();//Selection of user
+    console.log(a)
+    var options = [];
+    $('.contactsFilter option').each(function(){
+        options.push($(this).data('filter'));
+    })
+    console.log(options)
 
+    /*
+    * Get all elements with class mix, and check with data-filter
+    *
+    * */
+
+    $elements = $('.mix');
+    $.each($elements, function () {
+        $at = $(this).data('filter')
+        console.log(a)
+        console.log($at)
+        if($.inArray($at, a) === -1) console.log('nomatch')
+        else console.log('not')
+    })
+
+
+
+
+/*
+
+    $('.mix').each(function () {
+        var element = $(this);
+        if(element.is(options.join(', '))) console.log('found')
+    });
+
+*/
+
+
+
+
+
+   /* $('.mix').each(function () {
+       if(!$(this).is(a)) console.log('found!')
+    })*/
 }
 
 function editContact() {

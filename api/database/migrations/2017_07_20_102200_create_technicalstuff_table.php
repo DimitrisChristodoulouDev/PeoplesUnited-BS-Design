@@ -13,7 +13,7 @@ class CreateTechnicalstuffTable extends Migration
      */
     public function up()
     {
-        Schema::create('technicalStuff', function (Blueprint $table) {
+        Schema::create('technical_stuff', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->integer('positionID', false );
@@ -31,6 +31,6 @@ class CreateTechnicalstuffTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('technicalStuff');
+        Schema::dropIfExists('technical_stuff');
     }
 }

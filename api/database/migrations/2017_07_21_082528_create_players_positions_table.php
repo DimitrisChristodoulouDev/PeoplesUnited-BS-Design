@@ -13,7 +13,7 @@ class CreatePlayersPositionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('playersPositions', function (Blueprint $table) {
+        Schema::create('players_positions', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('label',50);
@@ -29,6 +29,6 @@ class CreatePlayersPositionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('playersPositions');
+        Schema::dropIfExists('players_positions');
     }
 }

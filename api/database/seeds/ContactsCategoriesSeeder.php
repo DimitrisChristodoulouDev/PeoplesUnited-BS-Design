@@ -16,12 +16,12 @@ class ContactsCategoriesSeeder extends Seeder
 
         $tableName = ['agents', 'boardofdirector', 'clubstuff'];
 
-        $limit = 10;
 
-        for ($i = 0; $i < $limit; $i++) {
+
+        for ($i = 0; $i < count($tableName); $i++) {
             ContactsCategories::create([
                 'categoryLabel'=> ucfirst(array_random($tableName)),
-                'tableNameReference' => array_random($tableName),
+                'tableNameReference' => $tableName[$i],
 
                           ]);
         }

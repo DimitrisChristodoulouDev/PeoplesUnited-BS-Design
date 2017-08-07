@@ -1,10 +1,63 @@
 $(function () {
+    userStatus();
+    $('#logoutBtn').on('click', logout)
+})
 
-    //Render templates
-    // renderTemplates()
-    // addHoverClass()
-    //TODO: automaticLogout()
-});
+
+function logout(){
+    console.log('Loging out!');
+    callAjax('authenticate/logout').done(function (response) {
+        console.log(response)
+        if(response.status === 1){
+            removeToken();
+            console.log(localStorage);
+            window.location.href = 'login.html'
+        }
+    })
+
+    removeToken();
+
+}
+
+function userStatus(){
+
+    var msg = function () {
+        return swal({
+            title: 'Error.',
+            text: "You are not logged in! Please login.",
+            type: 'warning',
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Take me there!',
+            allowEscapeKey: false,
+            allowEnterKey: false,
+            allowOutsideClick: false
+        }).then(function () {
+            window.location.href = 'login.html'
+        })
+    };
+console.log(window.location.pathname)
+if(window.location.pathname !== '/app/login.html'){
+    if(localStorage.getItem('AuthToken') === null) {
+        msg();
+    } else{ //exists
+        //Check with server
+        callAjax('/authenticate').done(function (response) {
+            console.log(response)
+            if(response.status === 'error') msg();
+            else {
+                if(localStorage.getItem('Authenticated')!== "true"){
+                    toastr.success('Welcome back<br/><strong>'+ response.fullName +'</strong>!');
+                    localStorage.setItem('Authenticated', "true");
+                }
+
+
+            }
+        })
+        // msg();
+    }
+}
+}
 
 function addHoverClass() {
     $('.card').removeClass('hoverable').addClass('hoverable');
@@ -12,6 +65,8 @@ function addHoverClass() {
 
 function saveToken(token) {
     localStorage.setItem('AuthToken', token);
+    localStorage.setItem('Authenticated', true);
+
 }
 
 function getToken() {
@@ -20,6 +75,7 @@ function getToken() {
 
 function removeToken() {
     localStorage.removeItem('AuthToken');
+    localStorage.setItem('Authenticated', false);
 }
 
 function automaticLogout() {
@@ -69,6 +125,8 @@ function handlebarsRenderTemplate(selector, container, context) {
 function callAjax(url, data) {
     base_url = 'http://api/';
     return $.ajax({
+        beforeSend: function(){
+        },
         async: true,
         crossDomain: true,
         method: 'POST',
@@ -76,17 +134,23 @@ function callAjax(url, data) {
             AuthToken: getToken(),
             'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8'
         },
-        cache: true,
+        cache: false,
         url: base_url + url,
         dataType: 'json',
         data: data,
         error: function (XMLHttpRequest, textStatus, errorThrown) {
-            console.log('Error: ', errorThrown, 'Status', textStatus);
-            console.log('An error has occured. Reload your browser')
+        },
+        statusCode: {
+            404: function() {
+                // window.location.href = 'errors/404.html'
+            },
+            500: function() {
+                // window.location.href = 'errors/500.html'
+            }
         },
         success: function (response) {
-            console.log('Success', response);
         }
+
     });
 }
 
@@ -96,7 +160,7 @@ function readForm(selector) {
 
 
 function getUrlParameter(sParam) {
-    var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+    var sPageURL = String( decodeURIComponent(window.location.search.substring(1))).replace( /#/, "" ),
         sURLVariables = sPageURL.split('&'),
         sParameterName,
         i;

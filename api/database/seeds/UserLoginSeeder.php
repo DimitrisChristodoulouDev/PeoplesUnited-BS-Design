@@ -15,8 +15,14 @@ class UserLoginSeeder extends Seeder
 
         $faker = Faker\Factory::create();
 
-        $limit = 33;
+        $limit = 20;
+        UserLogin::create([ //,
 
+            'name' => 'Dimitris',
+            'fullName' => 'Dimitris Christodoulou',
+            'email'=> 'grivas1911@gmail.com',
+            'password' => '12345',
+        ]);
         for ($i = 0; $i < $limit; $i++) {
             UserLogin::create([ //,
 
@@ -25,7 +31,6 @@ class UserLoginSeeder extends Seeder
                     'email'=> $faker->email,
                     'password' => bcrypt($faker->password(6, 20)),
                     'token' => bcrypt($faker->password(6, 20)),
-                    'created_at' => Carbon::now()->format('Y-m-d H:i:s')
             ]);
         }
     }

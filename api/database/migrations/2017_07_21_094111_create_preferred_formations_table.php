@@ -13,8 +13,9 @@ class CreatePreferredFormationsTable extends Migration
      */
     public function up()
     {
-        Schema::create('preferredFormations', function (Blueprint $table) {
+        Schema::create('preferred_formations', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('formationName',250);
             $table->timestamps();
         });
     }
@@ -26,6 +27,6 @@ class CreatePreferredFormationsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('preferredFormations');
+        Schema::dropIfExists('preferred_formations');
     }
 }

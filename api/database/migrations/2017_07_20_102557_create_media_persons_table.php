@@ -13,7 +13,7 @@ class CreateMediaPersonsTable extends Migration
      */
     public function up()
     {
-        Schema::create('mediaPersons', function (Blueprint $table) {
+        Schema::create('media_persons', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
         });
@@ -26,6 +26,6 @@ class CreateMediaPersonsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('mediaPersons');
+        Schema::dropIfExists('media_persons');
     }
 }

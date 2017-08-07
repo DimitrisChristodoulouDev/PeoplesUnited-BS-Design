@@ -6,6 +6,7 @@ use Exception;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
+use Illuminate\Support\Facades\Response;
 
 class Handler extends ExceptionHandler
 {
@@ -49,7 +50,7 @@ class Handler extends ExceptionHandler
         if ($exception instanceof ModelNotFoundException)
         {
 
-            return Response::json(['message'=>'hello there error']);
+            return response()->json('',404);
         }
 
         return parent::render($request, $exception);

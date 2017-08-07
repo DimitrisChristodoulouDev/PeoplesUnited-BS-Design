@@ -13,7 +13,7 @@ class CreateBoardOfDirectionPositionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('boardofdirectorPositions', function (Blueprint $table) {
+        Schema::create('board_of_director_positions', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('label',50);
@@ -28,6 +28,6 @@ class CreateBoardOfDirectionPositionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('boardofdirectorPositions');
+        Schema::dropIfExists('board_of_director_positions');
     }
 }

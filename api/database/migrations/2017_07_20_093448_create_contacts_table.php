@@ -14,7 +14,7 @@ class CreateContactsTable extends Migration
     public function up()
     {
         Schema::create('contacts', function (Blueprint $table) {
-            $table->increments('id')->unsigned();
+            $table->increments('id');
             $table->integer('userID',false);
             $table->timestamps();
             $table->string('name',20);
@@ -37,6 +37,7 @@ class CreateContactsTable extends Migration
             $table->string('personalWebsite', 250)->nullable();
             $table->string('workWebsite', 250)->nullable();
             $table->string('otherWebsites', 250)->nullable();
+            $table->softDeletes();
         });
     }
 

@@ -13,7 +13,7 @@ class CreateFunClubTable extends Migration
      */
     public function up()
     {
-        Schema::create('funClub', function (Blueprint $table) {
+        Schema::create('fun_club', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
         });
@@ -26,6 +26,6 @@ class CreateFunClubTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('funClub');
+        Schema::dropIfExists('fun_club');
     }
 }

@@ -13,7 +13,7 @@ class CreateClubStuffPositionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('clubStuffPositions', function (Blueprint $table) {
+        Schema::create('club_stuff_positions', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
             $table->string('label',50);
@@ -48,6 +48,6 @@ class CreateClubStuffPositionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('clubStuffPositions');
+        Schema::dropIfExists('club_stuff_positions');
     }
 }

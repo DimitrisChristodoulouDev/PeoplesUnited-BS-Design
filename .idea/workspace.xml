@@ -2,20 +2,197 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="644a5f4c-9d1d-4d96-b2a7-c5e0a2450883" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/asd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sd.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/global/img/404.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/global/plugins/mixitup.min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Auth/Console/MakeAuthCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver/src/Types/Mixed_.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver/src/Types/Resource_.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/build/phpunit.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/.idea/api.iml" afterPath="$PROJECT_DIR$/api/.idea/api.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/.idea/dataSources/07d83e34-4b2c-4370-ad9b-682ddf38f413.xml" afterPath="$PROJECT_DIR$/api/.idea/dataSources/07d83e34-4b2c-4370-ad9b-682ddf38f413.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/.idea/php.xml" afterPath="$PROJECT_DIR$/api/.idea/php.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/.idea/workspace.xml" afterPath="$PROJECT_DIR$/api/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Agent.php" afterPath="$PROJECT_DIR$/api/app/Agent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Clubs.php" afterPath="$PROJECT_DIR$/api/app/Clubs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Contact.php" afterPath="$PROJECT_DIR$/api/app/Contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/ContactsCategories.php" afterPath="$PROJECT_DIR$/api/app/ContactsCategories.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/api/app/Exceptions/Handler.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Http/Controllers/ContactsController.php" afterPath="$PROJECT_DIR$/api/app/Http/Controllers/ContactsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Http/Controllers/UserLoginController.php" afterPath="$PROJECT_DIR$/api/app/Http/Controllers/UserLoginController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Http/Kernel.php" afterPath="$PROJECT_DIR$/api/app/Http/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Http/Middleware/Authentication.php" afterPath="$PROJECT_DIR$/api/app/Http/Middleware/Authentication.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/api/app/Providers/AppServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app/UserLogin.php" afterPath="$PROJECT_DIR$/api/app/UserLogin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/composer.json" afterPath="$PROJECT_DIR$/api/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/composer.lock" afterPath="$PROJECT_DIR$/api/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_18_073901_create_user_login_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_18_073901_create_user_login_table.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_093448_create_contacts_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_093448_create_contacts_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_100628_create_contactsCategories_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_100628_create_contactsCategories_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_101846_create_boardofdirector_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_101846_create_boardofdirector_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_101931_create_board_of_direction_positions_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_101931_create_board_of_direction_positions_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102200_create_technicalstuff_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102200_create_technicalstuff_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102313_create_technical_stuff_positions_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102313_create_technical_stuff_positions_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102348_create_club_stuff_positions_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102348_create_club_stuff_positions_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102432_create_club_stuff_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102432_create_club_stuff_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102557_create_media_persons_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102557_create_media_persons_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102631_create_media_persons_responsibilities_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102631_create_media_persons_responsibilities_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102709_create_fun_club_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_20_102709_create_fun_club_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_21_082528_create_players_positions_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_21_082528_create_players_positions_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/migrations/2017_07_21_094111_create_preferred_formations_table.php" afterPath="$PROJECT_DIR$/api/database/migrations/2017_07_21_094111_create_preferred_formations_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/seeds/ContactsCategoriesSeeder.php" afterPath="$PROJECT_DIR$/api/database/seeds/ContactsCategoriesSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/seeds/ContactsSeeder.php" afterPath="$PROJECT_DIR$/api/database/seeds/ContactsSeeder.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/seeds/DatabaseSeeder.php" afterPath="$PROJECT_DIR$/api/database/seeds/DatabaseSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/database/seeds/UserLoginSeeder.php" afterPath="$PROJECT_DIR$/api/database/seeds/UserLoginSeeder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/routes/console.php" afterPath="$PROJECT_DIR$/api/routes/console.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/routes/web.php" afterPath="$PROJECT_DIR$/api/routes/web.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/barryvdh/laravel-ide-helper/resources/views/meta.php" afterPath="$PROJECT_DIR$/api/vendor/barryvdh/laravel-ide-helper/resources/views/meta.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/barryvdh/laravel-ide-helper/src/Console/GeneratorCommand.php" afterPath="$PROJECT_DIR$/api/vendor/barryvdh/laravel-ide-helper/src/Console/GeneratorCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/barryvdh/laravel-ide-helper/src/Console/MetaCommand.php" afterPath="$PROJECT_DIR$/api/vendor/barryvdh/laravel-ide-helper/src/Console/MetaCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/barryvdh/laravel-ide-helper/src/Console/ModelsCommand.php" afterPath="$PROJECT_DIR$/api/vendor/barryvdh/laravel-ide-helper/src/Console/ModelsCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/api/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/api/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/README.md" afterPath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/composer.json" afterPath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/InvalidArgumentException.php" afterPath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/InvalidArgumentException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php" afterPath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Exception/UnexpectedValueException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php" afterPath="$PROJECT_DIR$/api/vendor/doctrine/instantiator/src/Doctrine/Instantiator/Instantiator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/composer.json" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBrokerManager.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Auth/Passwords/PasswordBrokerManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastManager.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Broadcasting/BroadcastManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Cache/CacheManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Cache/Repository.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Cache/Repository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Console/Application.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Console/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Event.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Event.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Console/Scheduling/Schedule.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Concerns/BuildsQueries.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/DatabaseManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Concerns/HasAttributes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/BelongsTo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Concerns/InteractsWithPivotTable.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Concerns/InteractsWithPivotTable.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphTo.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/MorphTo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Relation.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/Relation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/SoftDeletingScope.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Eloquent/SoftDeletingScope.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Query/Builder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Database/Schema/Blueprint.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Encryption/Encrypter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemAdapter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Providers/ArtisanServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Support/Providers/RouteServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseTransactions.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Testing/DatabaseTransactions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/Testing/TestResponse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Http/Request.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Http/Request.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Mail/Message.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Mail/Message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Pagination/AbstractPaginator.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Pagination/AbstractPaginator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/Capsule/Manager.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/Capsule/Manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/Console/WorkCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/Console/stubs/jobs.stub" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/Console/stubs/jobs.stub" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Queue/QueueManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Redis/Connections/Connection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Redis/Connections/PhpRedisConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Redis/Connections/PredisConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Redis/RedisManager.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Redis/RedisManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/Collection.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/Facades/Route.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/Facades/Route.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/Facades/Schema.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/Facades/Schema.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/HigherOrderCollectionProxy.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/HigherOrderCollectionProxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/ViewErrorBag.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/ViewErrorBag.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/composer.json" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Support/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php" afterPath="$PROJECT_DIR$/api/vendor/laravel/framework/src/Illuminate/Validation/Concerns/ValidatesAttributes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/CHANGELOG.md" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/grammar/php7.y" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/grammar/php7.y" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/BuilderAbstract.php" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/BuilderAbstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/Node/Name.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/Parser/Php7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/ParserAbstract.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/lib/PhpParser/PrettyPrinter/Standard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/test/PhpParser/Builder/ParamTest.php" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/test/PhpParser/Builder/ParamTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/test/code/parser/errorHandling/recovery.test" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/test/code/parser/errorHandling/recovery.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/nikic/php-parser/test/code/parser/stmt/function/builtinTypeDeclarations.test" afterPath="$PROJECT_DIR$/api/vendor/nikic/php-parser/test/code/parser/stmt/function/builtinTypeDeclarations.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-docblock/composer.json" afterPath="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-docblock/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-docblock/src/DocBlock/StandardTagFactory.php" afterPath="$PROJECT_DIR$/api/vendor/phpdocumentor/reflection-docblock/src/DocBlock/StandardTagFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver/src/TypeResolver.php" afterPath="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver/src/TypeResolver.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver/src/Types/Array_.php" afterPath="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver/src/Types/Array_.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver/src/Types/Compound.php" afterPath="$PROJECT_DIR$/api/vendor/phpdocumentor/type-resolver/src/Types/Compound.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/.gitignore" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/.travis.yml" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/LICENSE" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/README.md" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/build.xml" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/composer.json" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/src/Token.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/src/Token.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/src/Token/Stream.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/src/Token/Stream.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/src/Token/Stream/CachingFactory.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/src/Token/Stream/CachingFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/ClassTest.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/ClassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/ClosureTest.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/ClosureTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/FunctionTest.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/FunctionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/IncludeTest.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/IncludeTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/InterfaceTest.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/InterfaceTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/NamespaceTest.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/Token/NamespaceTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/TokenTest.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/TokenTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/bootstrap.php" afterPath="$PROJECT_DIR$/api/vendor/phpunit/php-token-stream/tests/bootstrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/bin/build" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/bin/build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/bin/build-manual" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/bin/build-manual" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/CodeCleaner.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/CodeCleaner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/DocCommand.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/DocCommand.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/ListCommand/ClassConstantEnumerator.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/ListCommand/ClassConstantEnumerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/ListCommand/MethodEnumerator.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/ListCommand/MethodEnumerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/ListCommand/PropertyEnumerator.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/ListCommand/PropertyEnumerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/ListCommand/VariableEnumerator.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Command/ListCommand/VariableEnumerator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Configuration.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Configuration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/ConsoleColorFactory.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/ConsoleColorFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Context.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Context.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Shell.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/Shell.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/VarDumper/Presenter.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/src/Psy/VarDumper/Presenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/test/Psy/Test/CodeCleanerTest.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/test/Psy/Test/CodeCleanerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/test/Psy/Test/Formatter/CodeFormatterTest.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/test/Psy/Test/Formatter/CodeFormatterTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/psy/psysh/test/Psy/Test/Util/DocblockTest.php" afterPath="$PROJECT_DIR$/api/vendor/psy/psysh/test/Psy/Test/Util/DocblockTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/ramsey/uuid/CHANGELOG.md" afterPath="$PROJECT_DIR$/api/vendor/ramsey/uuid/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/ramsey/uuid/CONTRIBUTING.md" afterPath="$PROJECT_DIR$/api/vendor/ramsey/uuid/CONTRIBUTING.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/ramsey/uuid/src/Uuid.php" afterPath="$PROJECT_DIR$/api/vendor/ramsey/uuid/src/Uuid.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/console/Application.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Application.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/console/Tests/ApplicationTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/console/Tests/ApplicationTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/debug/ExceptionHandler.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/debug/ExceptionHandler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/http-foundation/Cookie.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/http-foundation/Cookie.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/http-foundation/Tests/CookieTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/http-foundation/Tests/CookieTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/http-kernel/Kernel.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/http-kernel/Kernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/routing/Matcher/Dumper/PhpMatcherDumper.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/routing/Matcher/Dumper/PhpMatcherDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher4.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/routing/Tests/Fixtures/dumper/url_matcher4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/routing/Tests/Matcher/Dumper/PhpMatcherDumperTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/routing/Tests/Matcher/Dumper/PhpMatcherDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Caster/Caster.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Caster/Caster.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Cloner/AbstractCloner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Cloner/Data.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Cloner/Data.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Cloner/Stub.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Cloner/Stub.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Cloner/VarCloner.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Cloner/VarCloner.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Dumper/AbstractDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Tests/Cloner/VarClonerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/var-dumper/Tests/Dumper/CliDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/yaml/CHANGELOG.md" afterPath="$PROJECT_DIR$/api/vendor/symfony/yaml/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/yaml/Inline.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/yaml/Inline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/yaml/Parser.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/yaml/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/yaml/Tests/InlineTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/yaml/Tests/InlineTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/vendor/symfony/yaml/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/api/vendor/symfony/yaml/Tests/ParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app_calendar.html" afterPath="$PROJECT_DIR$/app/app_calendar.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app_calendar8a36.html" afterPath="$PROJECT_DIR$/app/app_calendar8a36.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app_calendarb212.html" afterPath="$PROJECT_DIR$/app/app_calendarb212.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/contactProfile.html" afterPath="$PROJECT_DIR$/app/contactProfile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/login.html" afterPath="$PROJECT_DIR$/app/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/contacts.html" afterPath="$PROJECT_DIR$/app/contacts.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/plugins/bootstrap-sweetalert/sweetalert.css" afterPath="$PROJECT_DIR$/assets/global/plugins/bootstrap-sweetalert/sweetalert.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/plugins/bootstrap-sweetalert/sweetalert.min.js" afterPath="$PROJECT_DIR$/assets/global/plugins/bootstrap-sweetalert/sweetalert.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/plugins/pace/themes/pace-theme-flash.css" afterPath="$PROJECT_DIR$/assets/global/plugins/pace/themes/pace-theme-flash.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/global/scripts/custom-script.js" afterPath="$PROJECT_DIR$/assets/global/scripts/custom-script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/layouts/layout2/css/custom.min.css" afterPath="$PROJECT_DIR$/assets/layouts/layout2/css/custom.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pages/css/error.min.css" afterPath="$PROJECT_DIR$/assets/pages/css/error.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pages/scripts/contactProfile.js" afterPath="$PROJECT_DIR$/assets/pages/scripts/contactProfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/pages/scripts/contacts.js" afterPath="$PROJECT_DIR$/assets/pages/scripts/contacts.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,64 +206,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="contactProfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contactProfile.js">
+      <file leaf-file-name="contacts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contacts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+            <state relative-caret-position="1260">
+              <caret line="60" column="30" lean-forward="false" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/pages/scripts/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="550">
+              <caret line="127" column="44" lean-forward="false" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="44" />
               <folding>
-                <element signature="e#105#1447#0" expanded="false" />
+                <marker date="1501159258777" expanded="true" signature="2812:2818" ph=" " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom-script.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom-script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/global/scripts/custom-script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="273">
+              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
-                <element signature="e#3152#10350#0" expanded="false" />
+                <element signature="n#!!block;n#renderTemplates#0" expanded="false" />
+                <element signature="n#!!block;n#handlebarsRenderTemplate#0" expanded="false" />
+                <element signature="n#!!block;n#readForm#0" expanded="false" />
+                <element signature="n#!!block;n#getUrlParameter#0" expanded="false" />
+                <element signature="n#!!block;n#getCountryName#0" expanded="false" />
+                <element signature="e#4874#12072#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contactProfile.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="464" column="65" lean-forward="false" selection-start-line="464" selection-start-column="56" selection-end-line="464" selection-end-column="65" />
+              <folding>
+                <element signature="e#129551#169017#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="987">
+              <caret line="47" column="58" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contacts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/contacts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4368">
+              <caret line="510" column="45" lean-forward="false" selection-start-line="510" selection-start-column="40" selection-end-line="510" selection-end-column="45" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contactProfile.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/contactProfile.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="1738" column="79" lean-forward="true" selection-start-line="1738" selection-start-column="79" selection-end-line="1738" selection-end-column="79" />
+            <state relative-caret-position="798">
+              <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
               <folding>
-                <element signature="e#5073#5079#0" expanded="true" />
-                <element signature="e#5137#5143#0" expanded="true" />
-                <element signature="e#5150#5156#0" expanded="true" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#92419#98415#0" expanded="false" />
-                <element signature="n#script#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#script#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="e#102738#103786#0" expanded="false" />
-                <element signature="n#select#0;n#div#5;n#script#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#form#0;n#script#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#147236#147242#0" expanded="true" />
-                <element signature="e#147333#147339#0" expanded="true" />
-                <element signature="e#147340#147346#0" expanded="true" />
-                <element signature="e#147764#149205#0" expanded="false" />
+                <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#ul#0;n#div#0;n#div#0;n#div#3;n#body#0;n#!!top" expanded="false" />
+                <element signature="e#92450#98446#0" expanded="false" />
+                <element signature="e#104303#105351#0" expanded="false" />
+                <element signature="n#select#0;n#div#5;n#script#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#form#0;n#script#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -104,24 +309,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>page-conten</find>
-      <find>bread</find>
-      <find>triggr</find>
-      <find>gr</find>
-      <find>change pass</find>
-      <find>selectp</find>
-      <find>bootstra</find>
-      <find>37</find>
-      <find>proje</find>
-      <find>datep</find>
-      <find>handlebars</find>
-      <find>member</find>
-      <find>swag</find>
-      <find>format</find>
-      <find>counter</find>
-      <find>handleb</find>
-      <find>contacts</find>
-      <find>hand</find>
       <find>contact.</find>
       <find>{{</find>
       <find>script</find>
@@ -132,8 +319,26 @@
       <find>OPTION</find>
       <find>virgin</find>
       <find>form</find>
-      <find>sweet</find>
       <find>not v</find>
+      <find>about</find>
+      <find>actions</find>
+      <find>toolbar</find>
+      <find>trigger</find>
+      <find>Creat</find>
+      <find>Create C</find>
+      <find>Contact Prof</find>
+      <find>delete</find>
+      <find>blocku</find>
+      <find>unbloc</find>
+      <find>Delete</find>
+      <find>np</find>
+      <find>npr</find>
+      <find>filter</find>
+      <find>contactsFilterTemplate</find>
+      <find>grid</find>
+      <find>sweet</find>
+      <find>page_user_lo</find>
+      <find>icon-key</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -150,20 +355,25 @@
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/assets/pages/scripts/login.min.js" />
         <option value="$PROJECT_DIR$/assets/pages/scripts/login.js" />
-        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/contacts.html" />
         <option value="$PROJECT_DIR$/assets/pages/contacts.js" />
         <option value="$PROJECT_DIR$/object.json" />
         <option value="$PROJECT_DIR$/assets/pages/scripts/profile.min.js" />
         <option value="$PROJECT_DIR$/assets/global/plugins/handlebars-v4.0.10.js" />
-        <option value="$PROJECT_DIR$/app/contacts.html" />
-        <option value="$PROJECT_DIR$/assets/pages/scripts/contacts.js" />
         <option value="$PROJECT_DIR$/asd.js" />
         <option value="$PROJECT_DIR$/sd.html" />
         <option value="$PROJECT_DIR$/app/login.html" />
-        <option value="$PROJECT_DIR$/app/contactProfile.html" />
-        <option value="$PROJECT_DIR$/assets/global/scripts/custom-script.js" />
+        <option value="$PROJECT_DIR$/assets/layouts/layout2/css/custom.min.css" />
+        <option value="$PROJECT_DIR$/app/404.html" />
+        <option value="$PROJECT_DIR$/assets/pages/css/error.min.css" />
         <option value="$PROJECT_DIR$/assets/pages/scripts/contactProfile.js" />
+        <option value="$PROJECT_DIR$/app/errors/500.html" />
+        <option value="$PROJECT_DIR$/app/contactProfile.html" />
+        <option value="$PROJECT_DIR$/assets/global/plugins/pace/themes/pace-theme-flash.css" />
+        <option value="$PROJECT_DIR$/app/contacts.html" />
+        <option value="$PROJECT_DIR$/assets/pages/scripts/contacts.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/assets/global/scripts/custom-script.js" />
       </list>
     </option>
   </component>
@@ -184,9 +394,8 @@
     <handled-path value="$PROJECT_DIR$/api/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="326" />
-    <option name="y" value="258" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
@@ -236,20 +445,7 @@
               <item name="PeoplesUnited-BS-Design" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="global" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeoplesUnited-BS-Design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeoplesUnited-BS-Design" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PeoplesUnited-BS-Design" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PeoplesUnited-BS-Design" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -264,19 +460,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="SearchEverywhereHistoryKey" value="sweetalert&#9;null&#9;null" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="SearchEverywhereHistoryKey" value="custom&#9;FILE&#9;file://C:/xampp/htdocs/PeoplesUnited-BS-Design/assets/global/scripts/custom-script.js&#10;login&#9;FILE&#9;file://C:/xampp/htdocs/PeoplesUnited-BS-Design/assets/pages/scripts/login.js&#10;sweetalert&#9;null&#9;null" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\assets\global\plugins" />
-      <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\assets\global\scripts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\assets\global\plugins" />
       <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\assets\global\plugins\bootstrap-sweetalert" />
       <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\assets\pages\scripts" />
       <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\assets\global\img" />
+      <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\app" />
+      <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\assets\global\plugins" />
+      <recent name="C:\xampp\htdocs\PeoplesUnited-BS-Design\assets\global\scripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -312,18 +511,30 @@
       <workItem from="1501493034305" duration="6174000" />
       <workItem from="1501521634905" duration="4967000" />
       <workItem from="1501593934347" duration="19012000" />
+      <workItem from="1501682786644" duration="19169000" />
+      <workItem from="1501773998311" duration="2355000" />
+      <workItem from="1501784346726" duration="878000" />
+      <workItem from="1501789083514" duration="835000" />
+      <workItem from="1501825555349" duration="14572000" />
+      <workItem from="1501873330704" duration="2780000" />
+      <workItem from="1501912485546" duration="2871000" />
+      <workItem from="1501935970216" duration="902000" />
+      <workItem from="1502112316483" duration="331000" />
+      <workItem from="1502112799842" duration="940000" />
+      <workItem from="1502120832640" duration="1044000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65214000" />
+    <option name="totallyTimeSpent" value="111891000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22897938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44779333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -344,18 +555,18 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33295193" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14383924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21998942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918552" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993135" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -375,63 +586,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/Contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/ContactsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/app/Http/Controllers/UserLoginController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/favicon.ico" />
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/ui-bootbox.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/ui-sweetalert.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/plugins/bootstrap-sweetalert/sweetalert.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="231" column="1" lean-forward="false" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/scripts/custom-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/pages/scripts/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -572,7 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -601,14 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="747">
           <caret line="4839" column="1" lean-forward="false" selection-start-line="4839" selection-start-column="1" selection-end-line="4839" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="1860" column="57" lean-forward="false" selection-start-line="1860" selection-start-column="57" selection-end-line="1860" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -616,22 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
           <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/contacts.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="1532" column="34" lean-forward="false" selection-start-line="1532" selection-start-column="32" selection-end-line="1532" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contacts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="32" column="86" lean-forward="false" selection-start-line="32" selection-start-column="86" selection-end-line="32" selection-end-column="86" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,10 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="4" lean-forward="false" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-          <folding>
-            <element signature="e#2471#2477#0" expanded="false" />
-            <element signature="e#2477#2483#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -650,9 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
           <caret line="48" column="35" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="35" />
-          <folding>
-            <element signature="e#59#1911#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -660,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7833">
           <caret line="373" column="3" lean-forward="true" selection-start-line="373" selection-start-column="3" selection-end-line="373" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -668,9 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,27 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2100">
           <caret line="0" column="16233" lean-forward="false" selection-start-line="0" selection-start-column="16233" selection-end-line="0" selection-end-column="16233" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="25" lean-forward="true" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-          <folding>
-            <marker date="1501159258777" expanded="true" signature="2812:2818" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="47" column="55" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding>
-            <element signature="n#select#0;n#div#4;n#form#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,63 +803,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/layouts/layout2/css/custom.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="52" column="1" lean-forward="false" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa20936.19698/404-22-html5/styles/404.css" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa20936.20823/404-22-html5/index.html" />
+    <entry file="file://$PROJECT_DIR$/app/404.html" />
+    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contactProfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="111" column="59" lean-forward="false" selection-start-line="111" selection-start-column="59" selection-end-line="111" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/errors/500.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="903">
+          <caret line="43" column="59" lean-forward="false" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pages/css/error.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="125" column="1" lean-forward="false" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/pace/themes/pace-theme-flash.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/img/404.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/plugins/mixitup.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="17" column="23889" lean-forward="false" selection-start-line="17" selection-start-column="23889" selection-end-line="17" selection-end-column="23889" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="60" column="30" lean-forward="false" selection-start-line="60" selection-start-column="30" selection-end-line="60" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/contactProfile.js">
+    <entry file="file://$PROJECT_DIR$/app/contacts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        <state relative-caret-position="4368">
+          <caret line="510" column="45" lean-forward="false" selection-start-line="510" selection-start-column="40" selection-end-line="510" selection-end-column="45" />
           <folding>
-            <element signature="e#105#1447#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/global/scripts/custom-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="57" column="9" lean-forward="false" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-          <folding>
-            <element signature="e#3152#10350#0" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/contactProfile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="1738" column="79" lean-forward="true" selection-start-line="1738" selection-start-column="79" selection-end-line="1738" selection-end-column="79" />
+        <state relative-caret-position="798">
+          <caret line="38" column="61" lean-forward="false" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
           <folding>
-            <element signature="e#5073#5079#0" expanded="true" />
-            <element signature="e#5137#5143#0" expanded="true" />
-            <element signature="e#5150#5156#0" expanded="true" />
-            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#3;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#4;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#5;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#1;n#a#0;n#li#6;n#ul#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#92419#98415#0" expanded="false" />
-            <element signature="n#script#0;n#div#0;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#script#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#102738#103786#0" expanded="false" />
-            <element signature="n#select#0;n#div#5;n#script#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#form#0;n#script#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#147236#147242#0" expanded="true" />
-            <element signature="e#147333#147339#0" expanded="true" />
-            <element signature="e#147340#147346#0" expanded="true" />
-            <element signature="e#147764#149205#0" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#1;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#3;n#body#0;n#!!top" expanded="false" />
+            <element signature="e#92450#98446#0" expanded="false" />
+            <element signature="e#104303#105351#0" expanded="false" />
+            <element signature="n#select#0;n#div#5;n#script#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#form#0;n#script#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#3;n#body#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="47" column="58" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="464" column="65" lean-forward="false" selection-start-line="464" selection-start-column="56" selection-end-line="464" selection-end-column="65" />
+          <folding>
+            <element signature="e#129551#169017#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/pages/scripts/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="127" column="44" lean-forward="false" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="44" />
+          <folding>
+            <marker date="1501159258777" expanded="true" signature="2812:2818" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/global/scripts/custom-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="n#!!block;n#renderTemplates#0" expanded="false" />
+            <element signature="n#!!block;n#handlebarsRenderTemplate#0" expanded="false" />
+            <element signature="n#!!block;n#readForm#0" expanded="false" />
+            <element signature="n#!!block;n#getUrlParameter#0" expanded="false" />
+            <element signature="n#!!block;n#getCountryName#0" expanded="false" />
+            <element signature="e#4874#12072#0" expanded="false" />
           </folding>
         </state>
       </provider>
